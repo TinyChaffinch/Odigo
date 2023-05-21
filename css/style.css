@@ -439,8 +439,95 @@ img {
     background: url(../img/svg/arrow-ico.svg) no-repeat right center;
 }
 
-.tour-more:hover, .tour-more:focus {
+.tour-more:hover,
+.tour-more:focus {
     opacity: .65;
 }
 
 /* Tours styles end */
+
+
+/* Top styles start */
+
+.top {
+    margin-bottom: 86px;
+}
+
+.top-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 57px;
+}
+
+.top-card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top-title {
+    margin-bottom: 54px;
+}
+
+.top-card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.top-card-title {
+    font-size: 18px;
+    margin: 0 auto 0 0;
+}
+
+.top-card-likes {
+    padding-right: 20px;
+    background: url(../img/svg/heart-ico.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top-card-comments {
+    padding-right: 23px;
+    background: url(../img/svg/comment-ico.svg) no-repeat right;
+}
+
+.top-card-desc {
+    margin-bottom: 43px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+
+.top-card-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 19px;
+    background: #006DFE;
+    width: 118px;
+    margin-top: auto;
+}
+
+.top-card-more:hover, .top-card-more:focus, .top-card-more:active {
+    background: #0251b9;
+}
+
+/* Top styles end */
